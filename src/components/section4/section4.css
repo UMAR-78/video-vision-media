@@ -55,4 +55,37 @@
 }
 
 @media (max-width: 576px) {
+  .section4Design-div2 {
+    padding: 0;
+  }
+  .section4-upper-content-heading {
+    font-size: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    letter-spacing: -1.254px;
+    line-height: 51.25px;
+  }
+  .section4--lower-content{
+    flex-direction: column;
+    margin-top: 4rem;
+
+  }
+  .section4--lower-content-box {
+    text-align: start;
+    height: 148px;
+    width: 330px;
+    margin: 0;
+    padding: 0;
+  }
+  .section4--lower-content-box > h3 {
+    font-size: 18px;
+
+}
+  .section4--lower-content-box > p {
+    font-size: 14px;
+    color: #828282;
+    line-height: 20px;
+  }
+  
+  
 }

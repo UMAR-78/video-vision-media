@@ -1,7 +1,7 @@
 .section3-design {
   min-height: 100vh;
   overflow-y: auto;
-padding: 120px 117px
+  padding: 120px 117px;
 }
 .section3-content {
   font-size: 78px;
@@ -11,9 +11,22 @@ padding: 120px 117px
 }
 
 @media (max-width: 576px) {
+  .section3-design{
+    padding: 0;
+  }
   .section3-content {
-    font-size: 49px;
-    padding: 10rem 1rem 10rem 1rem;
+    font-size: 45px;
+    padding: 10rem 2rem 10rem 2rem;
     line-height: 50px;
+  }
+}
+@media (max-width: 640px) {
+  .section3-design{
+    padding: 0;
+  }
+  .section3-content {
+    font-size: 40px;
+    padding: 10rem 2rem 10rem 2rem;
+    line-height: 46px;
   }
 }
