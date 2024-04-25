@@ -1,18 +1,14 @@
 .section10-design {
   min-height: 100vh;
-  overflow-y:auto;
+  overflow-y: auto;
   position: relative;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
-
-.section10-design ::-webkit-scrollbar{
-  /* display: none; */
-}
-
 .section10-wrapper {
   padding: 10rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* position: relative; */
 }
 
 .section10-slider {
@@ -22,7 +18,9 @@
   justify-content: space-evenly;
   position: absolute;
   top: -10rem;
-  left: 40rem;
+  left: 50%;
+  transform: translateX(-50%);
+  /* Adjust left and transform properties as needed */
 }
 
 .sliderLeftArrow,
@@ -78,14 +76,17 @@
 }
 
 .section10-design-lowerContent {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
+  gap: 40px;
   align-items: center;
   flex-direction: column;
-  top: 25rem;
   text-align: center;
-  left: 23rem;
   padding-bottom: 4rem;
+  /* top: 50rem;
+  left: 50%; */
+  margin-top: 17rem;
+  transform: translateX(-50%);
 }
 
 .section10-design-lowerContent > h1 {
@@ -116,11 +117,9 @@
 }
 
 @media (max-width: 640px) {
-  .section10-design{
-    width: 10cw;
-  }
+ 
   .sliderImage {
-    width: 20rem; /* Adjust image size for mobile */
+    width: 17rem; /* Adjust image size for mobile */
   }
   .section10-wrapper {
     padding: 2rem;
@@ -130,8 +129,8 @@
     top: 20rem;
   }
   .section10-design-lowerContent {
-    top: 15rem;
-    padding-bottom: 4rem;
+    margin-top: -10px;
+    gap: 20px;
   }
 
   .section10-design-lowerContent > h1 {
@@ -140,6 +139,7 @@
 
   .section10-design-lowerContent > p {
     font-size: 13px;
+    width: 20rem;
   }
 
   .sliderLeftArrow,
