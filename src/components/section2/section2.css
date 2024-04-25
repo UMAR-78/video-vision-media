@@ -55,50 +55,35 @@
   margin-bottom: 0; /* Remove default margin */
 }
 
-@media (max-width: 576px) {
-  .section2-design{
+@media (min-width:375px) and (max-width: 667px) {
+  .section2-design {
     padding: 100px 40px 100px 40px;
   }
   .section2-upper-content-h1 {
     font-size: 30px;
-    color: white;
     letter-spacing: -0.99px;
     line-height: 36.25px;
   }
-  .section2-upper-content-p{
+  .section2-upper-content-p {
     font-size: 18px;
-  line-height: 26px;
-
+    line-height: 26px;
   }
   .section2-lower-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-direction: column;
-    /* flex: row; */
-    /* margin: 40px 10px; */
   }
   .section2-lower-content-div {
     height: 300px;
-    width: 360px;
+    width: 310px;
   }
   .section2-lower-content-img {
     width: 8rem;
     border-radius: 99px;
   }
   .section2-lower-content-heading {
-    color: white;
     font-size: 18px;
     padding-top: 38px;
   }
   .section2-lower-content-text {
-    color: #cdcdcd;
     font-size: 18px;
-    text-align: center;
-    padding-top: 12px;
-    letter-spacing: -0.52px;
-    min-width: 15rem;
-    margin-bottom: 0; /* Remove default margin */
   }
-  
 }

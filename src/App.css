@@ -1,8 +1,10 @@
 /* App.css */
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
+
 html{
     scroll-snap-type: y mandatory;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -48,11 +50,9 @@ html{
 .sections {
     flex: 1;
     overflow-y: auto;
-    
 }
 
 .section {
-    /* min-height: 100vh; */
     scroll-snap-align: start;
     scroll-snap-stop: always;
 }
