@@ -1,0 +1,58 @@
+.section4-design {
+  min-height: 100vh;
+  overflow-y: auto;
+  text-align: center;
+}
+.section4Design-div2 {
+  padding: 140px 117px;
+}
+.section4-upper-content-heading {
+  font-size: 57px;
+  padding-left: 133px;
+  padding-right: 133px;
+  letter-spacing: -1.254px;
+  line-height: 71.25px;
+}
+.section4-upper-content-heading1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.button-book-now {
+  padding: 14px 22px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 2px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.section4--lower-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section4--lower-content-box {
+  /* width: 20%; */
+  text-align: start;
+  height: 148px;
+  width: 266px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.section4--lower-content-box > h3 {
+  font-size: 21px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 10px;
+}
+.section4--lower-content-box > p {
+  font-size: 16px;
+  color: #828282;
+  line-height: 24px;
+}
+
+@media (max-width: 576px) {
+}

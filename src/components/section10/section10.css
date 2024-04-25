@@ -1,0 +1,149 @@
+.section10-design {
+  min-height: 100vh;
+  overflow-y:auto;
+  position: relative;
+}
+
+.section10-design ::-webkit-scrollbar{
+  /* display: none; */
+}
+
+.section10-wrapper {
+  padding: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section10-slider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  top: -10rem;
+  left: 40rem;
+}
+
+.sliderLeftArrow,
+.sliderRightArrow {
+  position: absolute;
+  font-size: 10rem;
+  cursor: pointer;
+}
+
+.sliderLeftArrow {
+  left: -30rem;
+  top: 16rem;
+}
+
+.sliderRightArrow {
+  right: -30rem;
+  top: 16rem;
+}
+
+.sliderImage {
+  top: 10rem;
+  width: 45rem;
+  position: absolute;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  cursor: pointer;
+}
+
+.sliderImage:not(:first-child) {
+  opacity: 0;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  position: absolute;
+  top: 33rem;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #888888;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+.section10-design-lowerContent {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: 25rem;
+  text-align: center;
+  left: 23rem;
+  padding-bottom: 4rem;
+}
+
+.section10-design-lowerContent > h1 {
+  font-size: 45px;
+  letter-spacing: -0.99px;
+}
+
+.section10-design-lowerContent > p {
+  font-size: 21px;
+  letter-spacing: -0.3675px;
+  width: 32rem;
+}
+
+.section10-design-lowerContent button {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+  border: none;
+  background-color: #2196f3;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.section10-design-lowerContent button .RiMessage2LineIcon {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .section10-design{
+    width: 10cw;
+  }
+  .sliderImage {
+    width: 20rem; /* Adjust image size for mobile */
+  }
+  .section10-wrapper {
+    padding: 2rem;
+  }
+  .dots {
+    margin-top: 1rem;
+    top: 20rem;
+  }
+  .section10-design-lowerContent {
+    top: 15rem;
+    padding-bottom: 4rem;
+  }
+
+  .section10-design-lowerContent > h1 {
+    font-size: 30px; /* Adjust heading size for mobile */
+  }
+
+  .section10-design-lowerContent > p {
+    font-size: 13px;
+  }
+
+  .sliderLeftArrow,
+  .sliderRightArrow {
+    display: none; /* Hide arrows on mobile */
+  }
+}

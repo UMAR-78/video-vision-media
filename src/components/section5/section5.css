@@ -1,0 +1,65 @@
+.section5-design {
+  min-height: 100vh;
+  overflow-y: auto;
+}
+.section5-design-content {
+  padding: 120px 117px;
+}
+.section5-design-content > p {
+  font-size: 18px;
+  color: #494949;
+  line-height: 25px;
+}
+.section5-design-content > div > h1 {
+  font-size: 75px;
+  color: black;
+  font-weight: 600;
+  line-height: 93.75px;
+  letter-spacing: -1.65px;
+  width: 680px;
+  margin-bottom: 30px;
+  height: 281px;
+}
+
+.button-contact-booking {
+  background-color: #2196f3;
+  color: white;
+  padding: 14px 22px;
+  border: none;
+  margin-top: 90px;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+  .section5-design-content {
+    padding: 2rem;
+  }
+  .section5-design-content > p {
+    padding-top: 6rem;
+  }
+  .section5-design-content > div > h1 {
+    font-size: 45px;
+    line-height: 57.75px;
+    letter-spacing: -1.65px;
+    width: 380px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 200px;
+  }
+  .button-contact-booking {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .section5-design-content > div > h1 {
+    font-size: 40px;
+    line-height: 60.75px;
+    letter-spacing: -1.65px;
+    width: 350px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 200px;
+  }
+}
