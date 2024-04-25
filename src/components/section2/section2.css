@@ -55,7 +55,7 @@
   margin-bottom: 0; /* Remove default margin */
 }
 
-@media (min-width:375px) and (max-width: 667px) {
+@media (max-width: 640px) {
   .section2-design {
     padding: 100px 40px 100px 40px;
   }
