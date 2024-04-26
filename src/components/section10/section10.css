@@ -136,6 +136,7 @@
 
   .section10-design-lowerContent > h1 {
     font-size: 30px; /* Adjust heading size for mobile */
+    padding-top: 50px;
   }
 
   .section10-design-lowerContent > p {
