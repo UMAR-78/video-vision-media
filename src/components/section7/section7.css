@@ -1,6 +1,10 @@
 .section7-design {
-  min-height: 100vh;
+  border: 1px solid red;
+  height: 100vh;
   overflow-y: auto;
+}
+.section7-design::-webkit-scrollbar {
+  display: none;
 }
 .section7-design-wrapper {
   padding: 3rem;
@@ -27,24 +31,23 @@
 
 .section7-design-lower-content {
   display: flex;
+  flex-direction: row;
+  align-items: center;
   flex-wrap: wrap;
-  padding-left: 4rem;
-  padding-right: 4rem;
-  margin-right: 10px;
-  margin-left: 40px;
+
   justify-content: space-between;
 }
 
 .section7-design-lower-content-box {
-  width: calc(50% - 0px);
-  height: 196px;
+  width: calc(50% - 15rem);
+  height: 196px;  
   display: flex;
-  align-items: center;
   text-align: start;
+  margin: 0 7.5em;
 }
 
 .section7-design-lower-content-box > .icon {
-  margin-bottom: 6rem;
+  /* margin-bottom: 6rem; */
   margin-right: 10px;
   width: 33px;
   height: 33px;
@@ -108,6 +111,3 @@
     color: #a4a4a4;
   }
 }
-
-
-

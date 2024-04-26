@@ -9,7 +9,7 @@ const Section3 = () => {
 
   const options = {
     root: null, // Observe the entire viewport
-    threshold: 0.5, // Trigger animation when 50% of the section is in view
+    threshold: 0.7, // Trigger animation when 50% of the section is in view
   };
 
   useEffect(() => {

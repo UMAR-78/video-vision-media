@@ -1,10 +1,6 @@
 /* App.css */
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
 
-html{
-    scroll-snap-type: y mandatory;
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -12,58 +8,12 @@ html{
     font-family:Inter
 }
 
-.app-container {
-    overflow-y: hidden;
-    display: flex;
-    height: 100vh; 
-}
-
-.app-container ::-webkit-scrollbar{
-    display: none;
-}
-
-.navigation {
-    position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    z-index: 99;
-}
-
-.line {
-    width: 8px;
-    height: 4px;
-    background-color: #8f8f8f;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: width 0.3s; /* Add transition for width change */
-}
-
-.line.blackBg.active {
-    background-color: #fff;
-}
-
-.sections {
-    flex: 1;
-    overflow-y: auto;
-}
-
-.section {
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-}
-
-.line.active {
+.custom-button {
+    border-radius: 50%;
+    height: p1px;
+    width: 10px;
+    margin: 5px;
     background-color: black;
-    width: 15px;
-}
-
-@media (max-width: 576px) {
-    .navigation {
-      right: 10px;
-    }
-}
+    opacity: 0.5;
+    transition: all 350ms ease-in-out 0s;
+  }

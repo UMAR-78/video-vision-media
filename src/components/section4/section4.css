@@ -1,7 +1,11 @@
 .section4-design {
-  min-height: 100vh;
+  border: 1px solid red;
+  height: 100vh;
   overflow-y: auto;
   text-align: center;
+}
+.section4-design::-webkit-scrollbar{
+  display: none;
 }
 .section4Design-div2 {
   padding: 140px 117px;
@@ -55,10 +59,11 @@
 
 @media (max-width: 576px) {
   .section4Design-div2 {
-    padding: 0;
+    padding: 10px 0px 10px 0px;
   }
   .section4-upper-content-heading {
     font-size: 30px;
+    padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
     letter-spacing: -1.254px;

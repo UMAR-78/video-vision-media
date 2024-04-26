@@ -1,5 +1,6 @@
 .section8-design {
-  min-height: 100vh;
+  border: 1px solid red;
+  height: 100vh;
   overflow-y: auto;
   background-color: black;
   color: white;
@@ -10,22 +11,23 @@
   text-align: center;
 }
 
+.section8-design::-webkit-scrollbar {
+  display: none;
+}
 .section8-design-wrapper > h1 {
   font-size: 57px;
   padding-bottom: 30px;
 }
 .section8-design-wrapper {
   padding: 7rem;
-  
 }
 .section8-design-wrapper > img {
   width: 45rem;
   border-radius: 10px;
-  /* padding-top: 20px; */
 }
 
 @media (max-width: 576px) {
-  .section8-design-wrapper{
+  .section8-design-wrapper {
     /* padding-top: 15rem; */
   }
 

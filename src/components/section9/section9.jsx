@@ -28,8 +28,16 @@ const Section9 = () => {
   useEffect(() => {
     if (isVisible) {
       headingControls.start({ scale: 1, transition: { duration: 0.5 } });
-      buttonControls.start({ opacity: 1, y: 0, transition: { duration: 0.5, delay: 0.5 } });
-      boxControls.start({ opacity: 1, x: 0, transition: { duration: 0.5, delay: 0.7 } });
+      buttonControls.start({
+        opacity: 1,
+        y: 0,
+        transition: { duration: 0.5, delay: 0.5 },
+      });
+      boxControls.start({
+        opacity: 1,
+        x: 0,
+        transition: { duration: 0.5, delay: 0.7 },
+      });
     } else {
       headingControls.start({ scale: 0.5 });
       buttonControls.start({ opacity: 0, y: 50 });
@@ -75,21 +83,58 @@ const Section9 = () => {
           <motion.div
             className="section9--lower-content"
             initial={{ opacity: 0, x: -50 }}
-            animate={boxControls}
+            animate={{
+              opacity: 1,
+              x: 0,
+              transition: { duration: 0.5, delay: 1.1 },
+            }}
           >
-            <motion.div className="section9--lower-content-box">
+            <motion.div
+              className="section9--lower-content-box"
+              initial={{ opacity: 0, x: -50 }}
+              animate={{
+                opacity: 1,
+                x: 0,
+                transition: { duration: 0.5, delay: 1.2 },
+              }}
+            >
               <h3>Streaming Protocol</h3>
               <p>ZIXI, SRT, HLS, MPEG-DASH, RTMP, RTSP, RTP, UDP etc.</p>
             </motion.div>
-            <motion.div className="section9--lower-content-box">
+
+            <motion.div
+              className="section9--lower-content-box"
+              initial={{ opacity: 0, x: -50 }}
+              animate={{
+                opacity: 1,
+                x: 0,
+                transition: { duration: 0.5, delay: 1.4 },
+              }}
+            >
               <h3>Streaming Codec</h3>
               <p>H.264, H.265, Baseline, Main & High, AVC, Coding, VCC, VP9</p>
             </motion.div>
-            <motion.div className="section9--lower-content-box">
+            <motion.div
+              className="section9--lower-content-box"
+              initial={{ opacity: 0, x: -50 }}
+              animate={{
+                opacity: 1,
+                x: 0,
+                transition: { duration: 0.5, delay: 1.6 },
+              }}
+            >
               <h3>Broadcast Streaming</h3>
               <p>JPEG2000, JPEG-SX, ZIXI, SRT upto 200MB DataRate</p>
             </motion.div>
-            <motion.div className="section9--lower-content-box">
+            <motion.div
+              className="section9--lower-content-box"
+              initial={{ opacity: 0, x: -50 }}
+              animate={{
+                opacity: 1,
+                x: 0,
+                transition: { duration: 0.5, delay: 1.8 },
+              }}
+            >
               <h3>DRM & GEO Block</h3>
               <p>Android, iOS, Chrome, iOS TV, Smart TV, Multiple Devices.</p>
             </motion.div>

@@ -1,7 +1,10 @@
 .section6-design {
-  min-height: 100vh;
+  border: 1px solid red;
+  height: 100vh;
   overflow-y: auto;
-
+}
+.section6-design::-webkit-scrollbar {
+  display: none;
 }
 .section6-design-wrapper {
   display: flex;
@@ -40,7 +43,7 @@
   font-size: 18px;
   color: #545454;
 }
-.section6-design-lower-content-box > p{
+.section6-design-lower-content-box > p {
   padding-left: 10px;
   padding-right: 10px;
   letter-spacing: -0.25px;
@@ -72,12 +75,11 @@
     font-size: 18px;
     color: #545454;
   }
-  .section6-design-lower-content-box > p{
+  .section6-design-lower-content-box > p {
     padding-left: 10px;
     padding-right: 10px;
     letter-spacing: -0.25px;
     line-height: 27px;
     font-size: 16px;
   }
-  
 }

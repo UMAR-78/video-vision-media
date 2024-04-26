@@ -67,7 +67,7 @@ const section5 = () => {
                 </h1>
                 <h1 className="secondh1">
                   Fiber Network! <br />
-                  Stadium, Venue to MCR Centralised <br />
+                  Stadium, Venue to MCR Centralised 
                   Studio!
                 </h1>
               </motion.div>
