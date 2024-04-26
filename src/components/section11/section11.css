@@ -1,13 +1,11 @@
 .section11-design {
-  border: 1px solid red;
-
   height: 100vh;
   overflow-y: auto;
   background-image: url(https://videovision.io/assets/img/background/img-163.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  /* position: relative; */
 }
 
 .section11-design::-webkit-scrollbar {
@@ -30,12 +28,11 @@
 }
 
 .section11-design-wrapper {
-  overflow-y: hidden;
+  overflow-y: auto;
   position: relative;
   padding-top: 100px;
-  padding-right: 129px;
-  padding-left: 129px;
-
+  /* padding-right: 129px; */
+  /* padding-left: 129px; */
   z-index: 1;
   display: flex;
   align-items: center;
@@ -113,7 +110,7 @@
     font-size: 40px;
     width: 100%;
     margin-top: 30px;
-    /* margin-left: 50px; */
+
     text-align: center;
   }
   .button-div {
@@ -142,13 +139,15 @@
     font-size: 30px;
     width: 100%;
     margin-top: 30px;
+    
   }
+
   .formItem input {
     padding: 15px;
     width: 17rem;
   }
   .section11-design {
-    overflow-y: scroll;
+    overflow-x: hidden;
   }
   .section11-design-wrapper {
     padding-bottom: 10px;

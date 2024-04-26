@@ -1,7 +1,6 @@
 .section10-design {
   height: 100vh;
   overflow-y: auto;
-  border: 1px solid red;
   position: relative;
   display: flex;
   justify-content: center; /* Center horizontally */
@@ -119,6 +118,7 @@
 .section10-design-lowerContent button .RiMessage2LineIcon {
   margin-right: 0.5rem;
 }
+
 
 @media (max-width: 640px) {
   .sliderImage {

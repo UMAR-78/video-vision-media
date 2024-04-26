@@ -1,5 +1,4 @@
 .section3-design {
-  border: 1px solid red;
   height: 100vh;
   overflow-y: auto;
   padding: 120px 117px;
@@ -30,7 +29,8 @@
   }
   .section3-content {
     font-size: 45px;
-    width: 100%;
+    width: 90%;
+    margin-left: 20px;
     line-height: 46px;
   }
 }

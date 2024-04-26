@@ -1,5 +1,4 @@
 .section5-design {
-  border: 1px solid red;
   height: 100vh;
   overflow-y: auto;
 }
@@ -32,12 +31,12 @@
   color: white;
   padding: 14px 22px;
   border: none;
-  margin-top: 90px;
+  margin-top: 20px;
   font-size: 17px;
   border-radius: 10px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 640px) {
   .section5-design-content {
     padding: 2rem;
   }
@@ -45,27 +44,17 @@
     padding-top: 6rem;
   }
   .section5-design-content > div > h1 {
-    font-size: 45px;
-    line-height: 57.75px;
+    font-size: 40px;
+    line-height: 60.75px;
     letter-spacing: -1.65px;
-    width: 380px;
+    width: 320px;
     margin-bottom: 30px;
     margin-top: 30px;
     height: 200px;
   }
   .button-contact-booking {
-    margin-top: 40px;
+    margin-top: 6rem;
   }
 }
 
-@media (max-width: 640px) {
-  .section5-design-content > div > h1 {
-    font-size: 40px;
-    line-height: 60.75px;
-    letter-spacing: -1.65px;
-    width: 350px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    height: 200px;
-  }
-}
+

@@ -1,5 +1,4 @@
 .section4-design {
-  border: 1px solid red;
   height: 100vh;
   overflow-y: auto;
   text-align: center;
@@ -57,7 +56,7 @@
   line-height: 24px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 646px) {
   .section4Design-div2 {
     padding: 10px 0px 10px 0px;
   }
@@ -77,7 +76,7 @@
   .section4--lower-content-box {
     text-align: start;
     height: 148px;
-    width: 330px;
+    width: 320px;
     margin: 0;
     padding: 0;
   }

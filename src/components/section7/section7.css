@@ -1,5 +1,4 @@
 .section7-design {
-  border: 1px solid red;
   height: 100vh;
   overflow-y: auto;
 }
@@ -31,19 +30,17 @@
 
 .section7-design-lower-content {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   align-items: center;
   flex-wrap: wrap;
-
   justify-content: space-between;
 }
 
 .section7-design-lower-content-box {
-  width: calc(50% - 15rem);
-  height: 196px;  
+  height: 196px;
   display: flex;
   text-align: start;
-  margin: 0 7.5em;
+  margin: 0 7.5rem;
 }
 
 .section7-design-lower-content-box > .icon {
@@ -73,7 +70,7 @@
   color: #a4a4a4;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 640px) {
   .section7-design-wrapper {
     padding-top: 5rem;
   }
@@ -96,10 +93,12 @@
     flex-direction: column;
     margin: 0;
     padding: 0;
+    width: 0;
   }
   .section7-design-lower-content-box {
-    width: 100%;
+    margin: 0;
   }
+
   .section7-design-lower-content-box > div > h2 {
     font-size: 19px;
   }
@@ -107,7 +106,6 @@
     font-size: 15px;
     line-height: 24px;
     width: 290px;
-    /* height: 20%; */
     color: #a4a4a4;
   }
 }

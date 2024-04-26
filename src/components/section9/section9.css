@@ -1,12 +1,11 @@
 .section9-design {
-  border: 1px solid red;
-
- height: 100vh;
+  height: 100vh;
   overflow-y: auto;
   text-align: center;
 }
-.section9App-design::-webkit-scrollbar{
-  display: none;}
+.section9-design::-webkit-scrollbar{
+  display: none;
+}
 .section9Design-div2 {
   padding: 140px 117px;
 }
