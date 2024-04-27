@@ -2,19 +2,23 @@
   height: 100vh;
   overflow-y: auto;
 }
+
 .section7-design::-webkit-scrollbar {
   display: none;
 }
+
 .section7-design-wrapper {
   padding: 3rem;
   text-align: center;
 }
+
 .section7-design-upper-content > h1 {
   font-size: 45px;
   font-weight: 600;
   line-height: 56.25px;
   letter-spacing: -0.99px;
 }
+
 .section7-design-upper-content > p {
   font-size: 24px;
   letter-spacing: -0.456px;
@@ -30,87 +34,89 @@
 
 .section7-design-lower-content {
   display: flex;
-  /* flex-direction: row; */
-  align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .section7-design-lower-content-box {
+  width: calc(40% - 15px);
   height: 196px;
   display: flex;
   text-align: start;
-  margin: 0 7.5rem;
+  margin: 0 4rem;
 }
 
 .section7-design-lower-content-box > .icon {
-  /* margin-bottom: 6rem; */
+  width: 40px;
+  height: 40px;
   margin-right: 10px;
-  width: 33px;
-  height: 33px;
+  margin-bottom: 5rem;
 }
 
 .section7-design-lower-content-box > div {
-  display: flex;
-  flex-direction: column;
+  flex-grow: 1;
 }
+
 .section7-design-lower-content-box > div > h2 {
   font-weight: 600;
   font-size: 24px;
-  margin-bottom: 5px;
   letter-spacing: -0.36px;
+  margin-bottom: 5px;
 }
+
 .section7-design-lower-content-box > div > p {
   font-size: 18px;
   letter-spacing: -0.252px;
-  line-height: 27px;
-  margin-top: 0;
-  width: 380px;
-  height: 108%;
+  line-height: 24px;
   color: #a4a4a4;
+
+
+
 }
 
 @media (max-width: 640px) {
   .section7-design-wrapper {
-    padding: 5rem 1rem 5rem 1rem;
-  }
-  .section7-design-upper-content > h1 {
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 40.25px;
-    letter-spacing: -0.99px;
-  }
-
-  .section7-design-upper-content > p {
-    font-size: 16px;
-    letter-spacing: -0.456px;
-    width: 100%;
-    color: #545454;
-    line-height: 24px;
-    margin: 0;
-  }
-  .section7-design-lower-content {
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    width: 0;
+    padding: 5rem 1rem;
   }
   .section7-design-lower-content-box {
     margin: 0;
   }
+  .section7-design-upper-content > h1 {
+    font-size: 30px;
+    line-height: 40.25px;
+  }
+
+  .section7-design-upper-content > p {
+    font-size: 16px;
+    width: 85%;
+    margin: 0 30px;
+    padding: 20px 0;
+    line-height: 26px;
+
+
+  }
+
+  .section7-design-lower-content {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .section7-design-lower-content-box {
+    width: 90%;
+  }
+
   .section7-design-lower-content-box > .icon {
-    margin-right: 10px;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
   }
 
   .section7-design-lower-content-box > div > h2 {
     font-size: 19px;
   }
+
   .section7-design-lower-content-box > div > p {
     font-size: 15px;
-    line-height: 24px;
-    width: 295px;
-    color: #a4a4a4;
+    width: 100%;
   }
 }
