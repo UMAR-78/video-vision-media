@@ -20,9 +20,6 @@ import Section11 from "./components/section11/section11";
 import Footer from "./components/footer/footer";
 import { useEffect } from "react";
 const App = () => {
-  
- 
-
   return (
     <Fullpage>
       <FullpageNavigation />
